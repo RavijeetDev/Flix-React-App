@@ -1,0 +1,42 @@
+.App {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #1A237E;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.App-header {
+    background: #1A237E;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    line-height: 11px;
+}
+
+.form {
+    display: grid;
+    width: 70%;
+    margin: 40px auto;
+    grid-template-columns: 55% 25% 20%;
+}
+
+.flick-list-item {
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.flick-item-image {
+    height: 280px;
+    border: 1px solid #d1d1d1;
+    margin: 10px;
+}
+
+.flick-item-content-card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
